@@ -1,0 +1,203 @@
+/********************
+YOUR STYLES
+*******************/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+header img {
+    display: block;
+    background: #ccc;
+    padding: 2em;
+    padding-right: 2em;
+    
+}
+
+.top {
+   font-size: 3em;
+    padding: 1em;
+    color: #ccc;
+    background: none;
+    margin: 1em auto;
+    letter-spacing: .2em;
+    padding-right: 1.2em;
+    padding-left: .4em;
+}
+
+/* slideshow image placement Pen by Florian Zoubek*/
+
+#slideshow img{
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+    width: 90%;
+    height: 50%;
+}
+
+
+/**/
+
+body {
+    background: url("/stand-alone-portfolio/img/bg.jpg");
+}
+
+main {
+    padding-top: 55em;
+}
+h1 {
+    font-family: "Avenir";
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 2.3em;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+
+h2 {
+    font-family: "Avenir";
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 2.2em;
+    width: 100%;
+    height: ;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-family: "Avenir";
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 2.2em;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+
+footer {
+    text-align: center;
+    font-size: .75em;
+    color: #ccc;
+}
+
+figcaption {
+    font-family: 'Roboto', sans-serif;
+    padding: 1em;
+    text-align: center;    
+}
+
+a {
+    background: rgba(0,0,0,.5);
+    padding: 1em;
+}
+
+a img {
+    border: white;
+    height: 201px;
+    width: 300px;
+    
+}
+
+.link a {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    background: rgba(255,255,255.1);
+    
+}
+
+
+a:link,
+a:visited {
+    color: white;
+}
+
+a:hover,
+a:active {
+    color: rgba(62,139,132,.5);
+}
+
+/* Gallery Styling */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  background: rgba(0,0,0,.5);
+  color: white;
+  font-size: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3em;
+  width: 30em;
+}
+
+.lg-backdrop {
+    background: rgba(62,139,132,.95);
+}
+
+.lg-image {
+    box-shadow: 0 0 30px #333;
+}
+
+
+/********************
+MEDIA QUERIES
+*******************/
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. */
+/*
+  body {
+       background: url("/stand-alone-portfolio/img/bg.jpg");
+  }
+*/
+    figure{
+        justify-content: center;
+    }
+    
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. */
+/*
+  body {
+       background: url("/stand-alone-portfolio/img/bg.jpg");
+  }
+*/
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. */
+/*
+  body {
+       background: url("/stand-alone-portfolio/img/bg.jpg");
+  }
+*/
+
+}
